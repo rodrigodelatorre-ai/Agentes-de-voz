@@ -591,7 +591,7 @@ export default function Home() {
           {/* Footer */}
           <footer className="bg-amber-800 text-amber-200 py-3 text-center text-sm">
             <div className="container mx-auto">
-              <p>Taquería "El Buen Sabor" © 2023 - Asistente de voz Cognitive Data Solutions</p>
+              <p>Taquería &quot;El Buen Sabor&quot; © 2023 - Asistente de voz Cognitive Data Solutions</p>
             </div>
           </footer>
           

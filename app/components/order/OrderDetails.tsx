@@ -61,7 +61,7 @@ export const OrderDetails = () => {
                 <div key={index} className="mb-3 p-3 border border-gray-100 rounded-lg shadow-sm hover-float product-card bg-white">
                   <div className="flex justify-between items-start">
                     <div className="flex items-center">
-                      <span className="text-2xl mr-3">{productDetails?.image || '🍽️'}</span>
+                      <span className="text-2xl mr-3">{productDetails?.imageUrl || '🍽️'}</span>
                       <div>
                         <h3 className="font-medium text-amber-900">{item.name}</h3>
                         <p className="text-xs text-gray-500">{productDetails?.description}</p>
